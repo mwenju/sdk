@@ -1,0 +1,14 @@
+{
+    "name": "mwenju/sdk",
+    "description": "mwenju sdk",
+    "type": "library",
+    "minimum-stability": "dev",
+    "version": "1.0.1",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mwenju\\": "src/"
+        },
+        "files": []
+    }
+}
