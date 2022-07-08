@@ -4,12 +4,11 @@
 namespace Mwenju\Rpc;
 
 
-use Mwenju\Common\Pojo\User;
-use Mwenju\Common\Service\OrderService;
+use Mwenju\Pojo\User;
 
 interface ShopOrderServiceInterface
 {
-    public function setUser($user):OrderService;
+    public function setUser($user);
     public function fenjian($order_product_id = 0);
     public function fenJianSubmit($order_id = 0);
     public function fuJian($order_product_id = 0);
